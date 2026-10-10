@@ -41,7 +41,7 @@ Configure Gemini or OpenRouter, models and the estimated spend limit in `.env`, 
 
 ## License and data
 
-Code is licensed under [MIT](LICENSE). The input dataset is adapted from Google's FACTS Grounding public examples under CC BY 4.0; see [data attribution](data/README.md).
+Code: [MIT](LICENSE). Inputs: FACTS Grounding, CC BY 4.0 ([attribution](data/README.md)).
 
 ## Citation
 
