@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uai2026-risk"
+version = "0.1.0"
+description = "Compact offline reproduction of UAI 2026 fact-selection experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2"]
+
+[project.urls]
+Paper = "https://proceedings.mlr.press/v337/kostka26a.html"
+Repository = "https://github.com/feilaz/uai2026-score-deviation"
+
+[project.optional-dependencies]
+generation = ["sentence-transformers>=3,<7", "python-dotenv>=1,<2"]
+
+[project.scripts]
+uai-risk = "uai_risk.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

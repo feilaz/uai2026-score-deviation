@@ -1,0 +1,24 @@
+{
+  "datasets": {
+    "homogeneous": {
+      "file": "homogeneous.json.gz",
+      "json_sha256": "1f5172d63e489630a818cbd15e7be60fa2a9e823de989d423d3309933ee41d95",
+      "tuples": 299,
+      "claims": 22112
+    },
+    "heterogeneous": {
+      "file": "heterogeneous.json.gz",
+      "json_sha256": "fe5f95bc41b470ea4244d1316f825c8e3538078ab22cd2ad4a12a9828ab60edf",
+      "tuples": 100,
+      "claims": 7606
+    }
+  },
+  "splits": {
+    "file": "splits.json.gz",
+    "json_sha256": "f534ee0b3233268b1814a66a9efbe2c2f74f55e1ec4766e70eada1371f27b0eb"
+  },
+  "provenance": {
+    "description": "299 completed original query records and original split permutations. The paper describes 300 queries; historical mode reproduces its headline recall values from these 299 records.",
+    "regenerated_query_ids": []
+  }
+}
